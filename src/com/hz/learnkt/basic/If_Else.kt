@@ -1,35 +1,12 @@
-package my.demo
+package com.hz.learnkt.basic
 
-/**
- * Created by hezhao on 2017-07-18 19:48.
+/** 选择结构
+ * Created by hezhao on 2018-06-12 11:07
  */
 
 fun main(args: Array<String>) {
-    println("Hello,Kotlin!")
-
-    println(sum(1,2))
-
-    //调用Java类
-    var emp = Emp("张三")
-    emp.name = "李四"
-
-    println(emp.sayHello())
-
     println(chosse("星期六"))
-
-    var flag = 0
-    do {
-        println("好好学习，天天向上")
-        flag ++
-    }while(flag < 10)
-
 }
-
-fun sum(a:Int,b:Int):Int{
-    return a+b
-}
-
-fun sub(a: Int, b: Int) = a - b
 
 fun chosse(keyword:String):String{
     if (keyword.equals("星期一")){
@@ -49,4 +26,3 @@ fun chosse(keyword:String):String{
 
     return "不知道星期几了"
 }
-

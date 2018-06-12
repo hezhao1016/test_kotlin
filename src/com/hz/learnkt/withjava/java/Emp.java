@@ -1,4 +1,4 @@
-package my.demo;
+package com.hz.learnkt.withjava.java;
 
 /**
  * Created by hezhao on 2017-07-19 11:20.
@@ -11,8 +11,8 @@ public class Emp {
         this.name = name;
     }
 
-    String sayHello(){
-        return "我是 "+name;
+    public String sayHello(){
+        return "我是 "+ name;
     }
 
     public String getName() {
@@ -23,9 +23,4 @@ public class Emp {
         this.name = name;
     }
 
-    public static void main(String[] args) {
-        //在Java中使用kotlin
-        int sum = Test1Kt.sum(1, 2);
-        System.out.println(sum);
-    }
 }
