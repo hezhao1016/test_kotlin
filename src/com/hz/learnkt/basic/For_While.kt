@@ -5,33 +5,34 @@ package com.hz.learnkt.basic
  */
 
 fun main(args: Array<String>) {
-    // do...while
-    var flag = 0
-    do {
-        println("好好学习，天天向上")
-        flag ++
-    }while(flag < 10)
-
-    println("--------------------------------")
+    println("----------------testFor----------------")
     testFor()
 
-    println("--------------------------------")
+    println("----------------testWhile----------------")
     testWhile()
 }
 
 
+// for 循环可以对任何提供迭代器（iterator）的对象进行遍历，这相当于像 C# 这样的语言中的 foreach 循环。
 fun testFor(){
     var items = listOf("小米","魅族","华为")
+
+    // 遍历集合
     for (item in items){
-        println(item)
+        print("$item ")
     }
+    println()
 
-    for (i in items.indices)    println(items[i])
+    // 简单循环体, items.indices获取集合的所有下标
+    for (i in items.indices) print("${items[i]} ")
+    println()
 
-    for ((index,value) in items.withIndex()){
+    // 同时遍历下标和元素
+    for ((index, value) in items.withIndex()){
         println("index is $index value is $value")
     }
 
+    // 遍历可空集合
     val listOf: List<String?> = listOf<String?>("aaa", null)
     listOf.forEach {
         println(it?.length)
@@ -40,44 +41,38 @@ fun testFor(){
     // for 循环指定次数
     // 区间迭代:
     for (x in 1..5) {
-        print(x)
+        print("$x ")
     }
+    println()
 
     // 或数列迭代：
     for (x in 1..10 step 2) {
-        print(x)
+        print("$x ")
     }
+    println()
+
     for (x in 9 downTo 0 step 3) {
-        print(x)
+        print("$x ")
     }
-
-    // 使用 in 运算符来判断集合内是否包含某实例：
-    when {
-        "小米" in items -> println("juicy")
-        "apple" in items -> println("apple is fine too")
-    }
-
-    //使用 lambda 表达式来过滤（filter）和映射（map）集合：
-    items
-            .filter { it.startsWith("a") }
-            .sortedBy { it }
-            .map { it.toUpperCase() }
-            .forEach(::println)
-
+    println()
 }
 
 fun testWhile(){
+    // while
     var size = 10
     var i = 0
-    while(i < size){
-        println(i++)
+    while(i < size) {
+        print("${i++} ")
     }
+    println()
 
+    // do...while
     i = 0
-    do{
-        println("a-- $i")
+    do {
         i++
-        if(i > 3)   break
-    }while(true)
-
+        if(i % 2 == 1) continue
+        print("$i ")
+        if(i >= 10) break
+    } while(true)
+    println()
 }

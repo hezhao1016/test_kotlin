@@ -27,4 +27,19 @@ fun main(args: Array<String>) {
     // 创建可变list
     val mutableList = mutableListOf(1, 2, 2)
     mutableList.add(234)
+
+
+    // 使用 in 运算符来判断集合内是否包含某实例：
+    var items = listOf("小米","魅族","华为")
+    when {
+        "小米" in items -> println("juicy")
+        "apple" in items -> println("apple is fine too")
+    }
+
+    // 使用 lambda 表达式来过滤（filter）和映射（map）集合：
+    items
+            .filter { it.startsWith("a") }
+            .sortedBy { it }
+            .map { it.toUpperCase() }
+            .forEach(::println)
 }

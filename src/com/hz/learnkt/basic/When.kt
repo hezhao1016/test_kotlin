@@ -6,9 +6,9 @@ package com.hz.learnkt.basic
 
 fun main(args: Array<String>) {
     testWhen()
-    testWhen("Hello")
+    println(testWhen("Hello"))
 
-    // when 后面可以不跟具体变量
+    // when 后面可以不跟具体变量, 可以用来取代 if-else if链
     println("------------------------------------")
     val x = 1
     val y = 2
@@ -49,7 +49,7 @@ fun testWhen(){
         5..10 -> print("x in [5,10]")
         "string" -> print("x == string")
         else -> {
-            print("else")
+            println("else...")
         }
     }
 }
