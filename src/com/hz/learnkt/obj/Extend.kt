@@ -70,6 +70,7 @@ class Bar : Foo() {
         println("Bar.f()")
     }
 
+    // 覆盖属性
     override val x: Int get() = super.x + 1
 }
 
