@@ -15,6 +15,7 @@ package com.hz.learnkt.obj
 - 如果你声明为 private，它只会在声明它的文件内可见；
 - 如果你声明为 internal，它会在相同模块内随处可见；
 - protected 不适用于顶层声明。
+注意：要使用另一包中可见的顶层声明，仍需将其导入进来。
 
 对于类内部声明的成员：
 - private 意味着只在这个类内部（包含其所有成员）可见；
@@ -58,3 +59,12 @@ class Unrelated(o: Outer) {
 - 一个 Maven 项目；
 - 一个 Gradle 源集（例外是 test 源集可以访问 main 的 internal 声明）；
 - 一次 ＜kotlinc＞ Ant 任务执行所编译的一套文件。*/
+
+
+// 类属性修饰符，标示类本身特性。
+//
+// abstract    // 抽象类
+// final       // 类不可继承，默认属性
+// enum        // 枚举类
+// open        // 类可继承，类默认是final的
+// annotation  // 注解类

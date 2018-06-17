@@ -30,19 +30,32 @@ class Outer2 {
 val demo2 = Outer2().Inner().foo() // == 1
 
 
-/*
 // 匿名内部类
 // 使用对象表达式创建匿名内部类实例：
-window.addMouseListener(object: MouseAdapter() {
-    override fun mouseClicked(e: MouseEvent) {
-        // ……
-    }
+class Test {
+    var v = "成员属性"
 
-    override fun mouseEntered(e: MouseEvent) {
-        // ……
+    fun setInterFace(test: TestInterFace) {
+        test.test()
     }
-})
+}
 
-// 如果对象是函数式 Java 接口（即具有单个抽象方法的 Java 接口）的实例， 你可以使用带接口类型前缀的lambda表达式创建它：
-val listener = ActionListener { println("clicked") }
-*/
+/**
+ * 定义接口
+ */
+interface TestInterFace {
+    fun test()
+}
+
+fun main(args: Array<String>) {
+    var test = Test()
+
+    /**
+     * 采用对象表达式来创建接口对象，即匿名内部类的实例。
+     */
+    test.setInterFace(object : TestInterFace {
+        override fun test() {
+            println("对象表达式创建匿名内部类的实例")
+        }
+    })
+}
