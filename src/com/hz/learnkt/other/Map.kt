@@ -6,7 +6,7 @@ package com.hz.learnkt.other
 
 fun main(args: Array<String>) {
     //在kotlin中，map是只读的，而mutableMap是var类型的
-    val map = mapOf<String,Int>("x" to 1,"y" to 2,"z" to 3)
+    val map = mapOf<String,Int>("x" to 1, "y" to 2, "z" to 3)
 
     println(map)
     println(map["x"])
@@ -25,4 +25,18 @@ fun main(args: Array<String>) {
     val mutableMap = mutableMapOf("x" to 1, "y" to 2, "z" to 3)
     mutableMap["sd"] = 11
 
+    // 遍历集合
+    println("------------------------")
+    for((k, v) in map){
+        println("$k to $v")
+    }
+
+    // 空Map
+    mutableMapOf<String, String>()
+
+    // 其他Map
+    hashMapOf<String, String>()
+    linkedMapOf<String, String>()
+    sortedMapOf<String, String>()
+    emptyMap<String, String>()
 }
