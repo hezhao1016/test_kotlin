@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3b25dd2-f8fe-4669-b2a9-5563849d9437" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/hz/learnkt/func/Coroutine.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hz/learnkt/func/Fun.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hz/learnkt/func/InlineFun.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hz/learnkt/func/Lambda.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hz/learnkt/other/Deconstruction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hz/learnkt/other/Equals.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hz/learnkt/other/OperatorOverload.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hz/learnkt/other/Set.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hz/learnkt/other/ThisExpression.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hz/learnkt/other/TypeCheckAndParse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hz/learnkt/other/TypeSafeBuilder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hz/learnkt/other/Typealias.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hz/learnkt/other/html/Element.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hz/learnkt/other/Annotation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hz/learnkt/other/Exception.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hz/learnkt/other/NullSafe.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hz/learnkt/other/Reflect.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hz/learnkt/func/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hz/learnkt/obj/GenericParadigm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hz/learnkt/obj/GenericParadigm.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hz/learnkt/obj/NestedAndInnerClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hz/learnkt/obj/NestedAndInnerClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hz/learnkt/other/List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hz/learnkt/other/List.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hz/learnkt/other/Map.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hz/learnkt/other/Map.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hz/learnkt/other/Range.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hz/learnkt/other/Range.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hz/learnkt/started/BasicGrammar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hz/learnkt/started/BasicGrammar.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +18,97 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="Reflect.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/Reflect.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+              <folding>
+                <element signature="e#30#136#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Range.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/Range.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThisExpression.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/ThisExpression.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassAndObject.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/obj/ClassAndObject.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-663">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Extend.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/obj/Extend.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicGrammar.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/started/BasicGrammar.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5814">
+              <caret line="342" column="30" lean-forward="true" selection-start-line="342" selection-start-column="30" selection-end-line="342" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NullSafe.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/NullSafe.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="701">
+              <caret line="93" column="1" lean-forward="true" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Emp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/withjava/java/Emp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KPropertyImplKt.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-reflect.jar!/kotlin/reflect/jvm/internal/KPropertyImplKt.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="KTypeImpl.kt" pinned="false" current-in-tab="false">
+        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-reflect-sources.jar!/kotlin/reflect/jvm/internal/KTypeImpl.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="37" column="8" selection-start-line="37" selection-end-line="37" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,19 +121,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>多个返回</find>
-      <find>override</find>
-      <find>命名</find>
-      <find>toString</find>
-      <find>listof</find>
-      <find>inline</find>
-      <find>lambda</find>
-      <find>lam</find>
-      <find>匿名</find>
-      <find>::</find>
       <find>arrayo</find>
       <find>reified</find>
-      <find>class</find>
       <find>com</find>
       <find>compon</find>
       <find>compan</find>
@@ -75,6 +140,17 @@
       <find>typealias</find>
       <find>Predicate</find>
       <find>多</find>
+      <find>===</find>
+      <find>as?</find>
+      <find>聪明</find>
+      <find>Inject</find>
+      <find>print</find>
+      <find>::clas</find>
+      <find>reif</find>
+      <find>*</find>
+      <find>clazz</find>
+      <find>::</find>
+      <find>class</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;&quot;</replace>
@@ -90,10 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/hz/learnkt/basic/Range.kt" />
-        <option value="$PROJECT_DIR$/src/com/hz/learnkt/started/Book.kt" />
-        <option value="$PROJECT_DIR$/src/com/hz/learnkt/withjava/kotlin/Person.kt" />
-        <option value="$PROJECT_DIR$/src/com/hz/learnkt/withjava/kotlin/Test2.kt" />
         <option value="$PROJECT_DIR$/src/com/hz/learnkt/withjava/java/Emp.java" />
         <option value="$PROJECT_DIR$/src/com/hz/learnkt/started/Test3.kt" />
         <option value="$PROJECT_DIR$/src/com/hz/learnkt/started/IdiomaticUsage.kt" />
@@ -102,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/com/hz/learnkt/withjava/java/Test1.java" />
         <option value="$PROJECT_DIR$/src/com/hz/learnkt/withjava/kotlin/Example.kt" />
         <option value="$PROJECT_DIR$/src/com/hz/learnkt/withjava/kotlin/InvokeJavaInKotlin.kt" />
-        <option value="$PROJECT_DIR$/src/com/hz/learnkt/started/BasicGrammar.kt" />
         <option value="$PROJECT_DIR$/src/com/hz/learnkt/basic/If_Else.kt" />
         <option value="$PROJECT_DIR$/src/com/hz/learnkt/basic/Return_Break_Continue.kt" />
         <option value="$PROJECT_DIR$/src/com/hz/learnkt/obj/Property.java" />
@@ -141,6 +212,11 @@
         <option value="$PROJECT_DIR$/src/com/hz/learnkt/other/html/Element.kt" />
         <option value="$PROJECT_DIR$/src/com/hz/learnkt/other/TypeSafeBuilder.kt" />
         <option value="$PROJECT_DIR$/src/com/hz/learnkt/other/Typealias.kt" />
+        <option value="$PROJECT_DIR$/src/com/hz/learnkt/started/BasicGrammar.kt" />
+        <option value="$PROJECT_DIR$/src/com/hz/learnkt/other/NullSafe.kt" />
+        <option value="$PROJECT_DIR$/src/com/hz/learnkt/other/Exception.kt" />
+        <option value="$PROJECT_DIR$/src/com/hz/learnkt/other/Annotation.kt" />
+        <option value="$PROJECT_DIR$/src/com/hz/learnkt/other/Reflect.kt" />
       </list>
     </option>
   </component>
@@ -150,9 +226,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1914" />
+    <option name="y" value="52" />
+    <option name="width" value="1907" />
+    <option name="height" value="1102" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -184,7 +262,131 @@
               <item name="test_kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learnkt" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learnkt" type="462c0819:PsiDirectoryNode" />
+              <item name="func" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learnkt" type="462c0819:PsiDirectoryNode" />
+              <item name="obj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learnkt" type="462c0819:PsiDirectoryNode" />
               <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learnkt" type="462c0819:PsiDirectoryNode" />
+              <item name="started" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learnkt" type="462c0819:PsiDirectoryNode" />
+              <item name="withjava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learnkt" type="462c0819:PsiDirectoryNode" />
+              <item name="withjava" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learnkt" type="462c0819:PsiDirectoryNode" />
+              <item name="withjava" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="KotlinJavaRuntime" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="KotlinJavaRuntime" type="70bed36:NamedLibraryElementNode" />
+              <item name="kotlin-reflect.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="KotlinJavaRuntime" type="70bed36:NamedLibraryElementNode" />
+              <item name="kotlin-reflect.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="KotlinJavaRuntime" type="70bed36:NamedLibraryElementNode" />
+              <item name="kotlin-reflect.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+              <item name="full" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="KotlinJavaRuntime" type="70bed36:NamedLibraryElementNode" />
+              <item name="kotlin-reflect.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="KotlinJavaRuntime" type="70bed36:NamedLibraryElementNode" />
+              <item name="kotlin-reflect.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="KotlinJavaRuntime" type="70bed36:NamedLibraryElementNode" />
+              <item name="kotlin-stdlib.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="KotlinJavaRuntime" type="70bed36:NamedLibraryElementNode" />
+              <item name="kotlin-stdlib.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="KotlinJavaRuntime" type="70bed36:NamedLibraryElementNode" />
+              <item name="kotlin-stdlib.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -226,7 +428,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.hz.learnkt.other.TypeSafeBuilderKt">
+  <component name="RunManager" selected="Kotlin.com.hz.learnkt.other.ReflectKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -246,24 +448,24 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="com.hz.learnkt.other.RangeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.hz.learnkt.other.NullSafeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="test_kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.hz.learnkt.other.RangeKt" />
+      <option name="MAIN_CLASS_NAME" value="com.hz.learnkt.other.NullSafeKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="com.hz.learnkt.other.SetKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.hz.learnkt.other.ReflectKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="test_kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.hz.learnkt.other.SetKt" />
+      <option name="MAIN_CLASS_NAME" value="com.hz.learnkt.other.ReflectKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="com.hz.learnkt.other.TypeCheckAndParseKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -319,19 +521,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.com.hz.learnkt.other.SetKt" />
-      <item itemvalue="Kotlin.com.hz.learnkt.other.RangeKt" />
       <item itemvalue="Kotlin.com.hz.learnkt.other.TypeCheckAndParseKt" />
       <item itemvalue="Kotlin.com.hz.learnkt.other.TypealiasKt" />
       <item itemvalue="Kotlin.com.hz.learnkt.other.TypeSafeBuilderKt" />
+      <item itemvalue="Kotlin.com.hz.learnkt.other.NullSafeKt" />
+      <item itemvalue="Kotlin.com.hz.learnkt.other.ReflectKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.hz.learnkt.other.ReflectKt" />
+        <item itemvalue="Kotlin.com.hz.learnkt.other.NullSafeKt" />
         <item itemvalue="Kotlin.com.hz.learnkt.other.TypeSafeBuilderKt" />
         <item itemvalue="Kotlin.com.hz.learnkt.other.TypealiasKt" />
         <item itemvalue="Kotlin.com.hz.learnkt.other.TypeCheckAndParseKt" />
-        <item itemvalue="Kotlin.com.hz.learnkt.other.RangeKt" />
-        <item itemvalue="Kotlin.com.hz.learnkt.other.SetKt" />
       </list>
     </recent_temporary>
   </component>
@@ -358,18 +560,19 @@
       <workItem from="1528985553479" duration="1200000" />
       <workItem from="1529205915737" duration="10444000" />
       <workItem from="1529280122015" duration="20394000" />
+      <workItem from="1529369122151" duration="3304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83486000" />
+    <option name="totallyTimeSpent" value="86790000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-1914" y="52" width="1907" height="1102" extended-state="0" />
     <layout>
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="调试" order="7" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49924356" weight="0.34876034" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49924356" weight="0.34854773" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -377,46 +580,46 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.21157025" />
-      <window_info anchor="right" id="调色板" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.21058092" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19515885" />
-      <window_info id="设计器" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16513264" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="SmartIM" order="7" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="设计器" order="2" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="调试" order="7" />
+      <window_info anchor="right" id="调色板" order="3" />
+      <window_info anchor="bottom" id="SmartIM" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3174274" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25811687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3174274" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
@@ -425,7 +628,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32987553" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -439,65 +642,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/Arrays.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/withjava/java/InvokeKotlinInJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/basic/When.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/obj/Delegate.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/obj/Expand.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1071">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/obj/Interface.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/obj/Modifier.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Library.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="92" column="40" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/obj/EnumClass.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="60" column="19" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/basic/If_Else.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -539,20 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/obj/Extend.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/obj/ClassAndObject.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1038">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/obj/Object.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -578,16 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/func/Coroutine.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="e#29#134#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -633,20 +757,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/Set.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/Map.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/Set.kt" />
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Ranges.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -654,20 +765,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/func/InlineFun.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="72" column="5" selection-start-line="72" selection-end-line="72" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/func/Fun.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-928">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/func/Fun.kt" />
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Primitives.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -689,20 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/Deconstruction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/Range.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/obj/GenericParadigm.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -717,31 +801,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/TypeCheckAndParse.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="123" column="21" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/Equals.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/basic/BasicType.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="178" column="13" lean-forward="true" selection-start-line="178" selection-start-column="13" selection-end-line="178" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/started/BasicGrammar.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="66" column="12" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -752,47 +815,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/ThisExpression.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/OperatorOverload.kt" />
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/TypeSafeBuilder.kt" />
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/html/Element.kt" />
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/Typealias.kt" />
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/Equals.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/OperatorOverload.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="114" column="7" lean-forward="true" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/func/Lambda.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/func/InlineFun.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="188" column="19" lean-forward="true" selection-start-line="188" selection-start-column="19" selection-end-line="188" selection-end-column="19" />
+        <state relative-caret-position="-494">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/TypeSafeBuilder.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/Deconstruction.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/Map.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        <state relative-caret-position="663">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/html/Element.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/Exception.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+        <state relative-caret-position="510">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/Typealias.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/Annotation.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="204">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/TypeCheckAndParse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="133" column="2" lean-forward="true" selection-start-line="133" selection-start-column="2" selection-end-line="133" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/obj/Expand.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/func/Coroutine.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/jvm/JvmClassMapping.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-reflect.jar!/kotlin/reflect/jvm/internal/KPropertyImplKt.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-reflect-sources.jar!/kotlin/reflect/jvm/internal/KTypeImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="37" column="8" selection-start-line="37" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/withjava/java/Emp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/obj/ClassAndObject.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/obj/Extend.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/ThisExpression.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/Range.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/started/BasicGrammar.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5814">
+          <caret line="342" column="30" lean-forward="true" selection-start-line="342" selection-start-column="30" selection-end-line="342" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/NullSafe.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="93" column="1" lean-forward="true" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hz/learnkt/other/Reflect.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
           <folding>
-            <element signature="e#30#84#0" expanded="true" />
+            <element signature="e#30#136#0" expanded="true" />
           </folding>
         </state>
       </provider>

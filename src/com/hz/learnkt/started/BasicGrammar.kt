@@ -341,29 +341,29 @@ class Student{
 
     fun test1(){
         var i:Double? = getInfo()?.toDouble()
-//         if(i != null)
+//      if(i != null)
         i?.let { println( i * 2) }
 
         // 可为null类型
         var s:String? = null
-//         var l = if (s!=null) s.length else 0
+//      var l = if (s!=null) s.length else 0
 
         // 安全调用操作符
-//         var l =s?.length
+        var l =s?.length
         s?.let{println("---  "+it.length)}
 
         //艾维斯操作符
-//         val l = s?.length ?: -1
+        val l1 = s?.length ?: -1
 
         //不为null 返回长度 否则抛出异常
-//         var l = s!!.length
+        var l2 = s!!.length
 
         //类型转换  如不成功给个 null
         val aInt: Int? = s as? Int
     }
 
     fun getInfo():Int?{
-//        return null
+//      return null
         return 3
     }
 
